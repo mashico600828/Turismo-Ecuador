@@ -1,0 +1,280 @@
+.barra-superior{
+  min-height: 4rem;
+}
+
+
+.logo{
+  width: 10%;
+  margin-top: 0.5rem;
+  float: left;
+}
+
+.responsive-img{
+  border: 0.6rem solid #ff8f00;
+  border-radius: 5px;
+}
+
+.barra-superior .row{
+  margin-bottom: 0;
+}
+
+
+#publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  resize: none;
+  border: 1px solid #ff8f00;
+  background-color: #ff8f00;
+  height: 5rem;
+  color: #fff;
+}
+
+.autor {
+   text-align:center;
+   padding:20px;
+   background:rgb(204,204,204);
+}
+
+.article {
+   background:rgb(204,204,204);
+}
+
+.formulario {
+   padding:5px;
+   background:rgb(204,204,204);
+}
+
+.avatar1 {
+    display: inline-block;
+	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.avatar { margin-top:5px;
+	 padding:5px;
+}
+
+.slogan1 { margin-left:10px; font-weight:bold;
+
+}
+
+.columna-principal {
+   margin-top:10px;
+}
+
+.columna-grupos { 
+   margin-top:30px;
+}
+
+.texto-autor { padding:5px; text-align:center;
+
+}
+
+.texto-articulo { padding:10px; text-align:justify;
+}
+
+.title-article {
+   padding:5px;
+}
+
+.title-comentario { text-align:left;
+   padding:5px; color:rgb(255,255,255);
+}
+
+body {
+   background-size: cover;
+   overflow-x: hidden;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-image: url("../img/fondo-ecuador.jpg");
+}
+
+.row {
+   background-color: #ABC;
+   filter: alpha(opacity=90);
+   opacity: 0.9;   
+}
+
+.baños {
+  float: left;
+  margin-right: 20px;
+  padding:5px;
+}
+
+.caja { margin-top:5px;
+   padding:5px;
+   border-radius:10px 10px 10px 10px;
+
+}
+
+.publicacion { font-family:"Times New Roman", Times, serif;
+   padding:5px;
+   font-weight:2rem;
+   color:rgb(255,0,0);
+}
+
+.button { 
+   padding:5px;
+   float: right;
+   margin-right:10px; margin-bottom:5px; 
+}
+
+#izquierda  {
+  width: 170px;
+  float: left;
+}
+
+#central  {
+  width: 170px;
+  float: left;
+}
+
+#derecha {
+  width: 170px;
+  float: left;
+}
+
+
+#menu {
+  padding:0; 
+  margin:0 auto; 
+  list-style-type:none; 
+}
+
+#menu li a {
+  float:left; 
+  border-bottom:2px solid #fff; 
+  overflow: hidden;
+}
+
+#menu li a img { padding:5px;
+  border:0;
+}
+
+#menu2 {
+  padding:0; 
+  margin:0 auto; 
+  list-style-type:none; 
+}
+
+#menu2 li a {
+  float:left; 
+  border-bottom:2px solid #fff; 
+  overflow: hidden;
+  }
+
+#menu2 li a img { padding:5px;
+  border:0;
+  }
+
+#menu3 {
+  padding:0; 
+  margin:0 auto; 
+  list-style-type:none; 
+}
+
+#menu3 li a {
+  float:left; 
+  border-bottom:2px solid #fff; 
+  overflow: hidden;
+}
+
+#menu3 li img { padding:5px;
+  border:0;
+}
+
+@media (max-width: 600px) {
+
+    .columna-principal {
+       margin-top:40px;
+    }
+
+   .columna-grupos { display:none;
+
+   }
+
+   .caja-redes { padding:5px;
+
+   }
+
+   #menu{
+       text-align:center;
+   }
+
+   #menu li{
+      display: inline-block;
+   }
+
+
+   #menu2{
+       text-align:center;
+   }
+
+   #menu2 li{
+      display: inline-block;
+   }
+
+   #menu3{
+       text-align:center;
+   }
+
+   #menu3 li{
+      display: inline-block;
+   }
+
+   .articulo { 
+      width:100%;
+   }
+
+   .propietario { 
+      width:100%;
+   }
+
+}
+
+/*--- Mobiles in portraid mode ---*/
+@media only screen and (min-width:320px){
+
+    .columna-principal {
+       margin-top:40px;
+    }
+
+   .caja-redes { padding:5px;
+
+   }
+
+   #menu{
+       text-align:center;
+   }
+
+   #menu li{
+      display: inline-block;
+   }
+
+
+   #menu2{
+       text-align:center;
+   }
+
+   #menu2 li{
+      display: inline-block;
+   }
+
+   #menu3{
+       text-align:center;
+   }
+
+   #menu3 li{
+      display: inline-block;
+   }
+
+   .articulo { 
+      width:100%;
+   }
+
+   .propietario {
+      width:100%;
+   }
+}
